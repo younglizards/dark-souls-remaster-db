@@ -728,7 +728,12 @@
         "intelligence": 0,
         "faith": 0
     },
-    "scale": {},
+    "scale": {
+        "strength": "C",
+        "dexterity": "C",
+        "intelligence": "-",
+        "faith": "-"
+    },
     "durability": 60,
     "weight": 6,
     "attackTypes": ["Regular", "Thrust"],
@@ -1205,13 +1210,18 @@
 }, {
     "name": "Obsidian Greatsword",
     "atk": {
-        "physical": 32060,
+        "physical": 320,
+        "magic": 0,
+        "fire": 0,
+        "lightning": 0,
+        "bonus": 100
+    },
+    "def": {
+        "physical": 60,
         "magic": 10,
         "fire": 40,
         "lightning": 40,
-        "bonus": 10038
-    },
-    "def": {},
+        "stab": 38},
     "effects": {
         "poison": "-",
         "bleed": "-",
@@ -1224,9 +1234,15 @@
         "intelligence": 0,
         "faith": 0
     },
-    "scale": {},
-    "durability": 3508,
-    "attackTypes": ["RegularSpecial"],
+    "scale": {
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
+    },
+    "durability": 350,
+    "weight": 8,
+    "attackTypes": ["Regular,Special"],
     "obtained": ["Obtained by cutting off the tail of Black Dragon Kalameet."],
     "aotaOnly": "yes"
 }, {
@@ -4183,7 +4199,10 @@
         "faith": 0
     },
     "scale": {
-        "dexterity": "C"
+        "strength": "-",
+        "dexterity": "C",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 250,
     "weight": 5,
@@ -4629,10 +4648,11 @@
         "bonus": 0
     },
     "def": {
-        "magic": 0,
-        "fire": 0,
-        "lightning": 0,
-        "stab": 0
+        "physical": 26,
+        "magic": 8,
+        "fire": 20,
+        "lightning": 20,
+        "stab": 16
     },
     "effects": {
         "poison": "-",
@@ -4649,9 +4669,11 @@
     "scale": {
         "strength": "-",
         "dexterity": "-",
-        "intelligence": "-"
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 0,
+    "weight": 0,
     "attackTypes": ["Strike"],
     "obtained": ["Starting gear for Pyromancer", "Obtained from Laurentius of the Great Swamp after saving him from the Depths", "Gift from Eingyi if you have no flame (must have 12 Int)"],
     "aotaOnly": "no"
@@ -4685,9 +4707,11 @@
     "scale": {
         "strength": "-",
         "dexterity": "S",
-        "intelligence": "-"
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 0,
+    "weight": 0,
     "attackTypes": ["Strike"],
     "obtained": [],
     "aotaOnly": "no"
