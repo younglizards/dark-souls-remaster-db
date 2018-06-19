@@ -15,10 +15,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 5,
@@ -29,14 +29,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 0,
     "attackTypes": ["Slash", "Thrust"],
     "obtained": ["Initial equipment for Sorcerer.", "Undead Merchant (male) sell the weapon for 300 Souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Ghost Blade",
     "atk": {
@@ -54,10 +54,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 5,
@@ -67,15 +67,15 @@
     },
     "scale": {
         "strength": "E",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 100,
     "weight": 0,
     "attackTypes": ["Slash", "Thrust", "Combo"],
     "obtained": ["Rare drop from Female Ghost (Banshee) in New Londo Ruins."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Bandit's Knife",
     "atk": {
@@ -93,10 +93,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 6,
@@ -107,14 +107,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 1,
     "attackTypes": ["Slash"],
     "obtained": ["Initial equipment for Thief.", "Drop from Undead Assassin."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Parrying Dagger",
     "atk": {
@@ -132,10 +132,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 5,
@@ -146,14 +146,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 0,
     "attackTypes": ["Slash", "Thrust"],
     "obtained": ["Treasure in New Londo Ruins"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Priscilla's Dagger",
     "atk": {
@@ -171,9 +171,9 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 500,
-        "divine": null,
+        "divine": "-",
         "occult": 110
     },
     "req": {
@@ -183,16 +183,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
+        "strength": "-",
         "dexterity": "A",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 100,
     "weight": 1,
     "attackTypes": ["Slash", "Combo"],
     "obtained": ["Obtained by cutting off Crossbreed Priscilla's Tail."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Dark Silver Tracer",
     "atk": {
@@ -210,10 +210,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 6,
@@ -224,14 +224,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "S",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 120,
     "weight": 1,
     "attackTypes": ["Slash", "Thrust"],
     "obtained": ["Can be obtained either by trading Soul of Artorias to Lord's Blade Ciaran, or by killing her."],
-    "aotaOnly": true
+    "aotaOnly": "yes"
 }, {
     "name": "Straight Sword Hilt",
     "atk": {
@@ -249,10 +249,10 @@
         "stab": 10
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 6,
@@ -263,14 +263,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "E",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 1,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Starting equipment for all players in the Undead Asylum"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Broken Straight Sword",
     "atk": {
@@ -288,10 +288,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 8,
@@ -302,14 +302,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "D",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 2,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Drops from Infantry Hollow (Undead Burg) and Infested Ghouls (Multiple Locations)"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Broadsword",
     "atk": {
@@ -327,10 +327,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 10,
@@ -341,14 +341,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 3,
     "attackTypes": ["Regular"],
     "obtained": ["Initial Equipment for Knight.", "Can be bought from Andrei of Astora for 1,000 souls."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Shortsword",
     "atk": {
@@ -366,10 +366,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 8,
@@ -380,14 +380,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 2,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Initial Equipment for Hunter.", "Sold by the male Undead Merchant for 600 souls", "Drops from Armored Hollows."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Longsword",
     "atk": {
@@ -405,10 +405,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 10,
@@ -419,14 +419,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 3,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Starting equipment for Warrior", "Bought from Andrei of Astora for 1,000 souls", "Drops from Undead Solider (with Sword or Spear)"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Barbed Straight Sword",
     "atk": {
@@ -444,10 +444,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 10,
@@ -458,14 +458,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "D",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 160,
     "weight": 3,
     "attackTypes": ["Thrust"],
     "obtained": ["Possible drop from NPC Phantom, Knight Kirk"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Sunlight Straight Sword",
     "atk": {
@@ -483,10 +483,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 12,
@@ -497,14 +497,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 240,
     "weight": 4,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Drops from Solaire of Astora"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Balder Side Sword",
     "atk": {
@@ -522,10 +522,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 10,
@@ -536,14 +536,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 120,
     "weight": 3,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Drops from Side Sword wielding Balder Knights (Undead Parish)"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Astora's Straight Sword",
     "atk": {
@@ -561,10 +561,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
+        "poison": "-",
+        "bleed": "-",
         "divine": 120,
-        "occult": null
+        "occult": "-"
     },
     "req": {
         "strength": 10,
@@ -575,14 +575,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "C",
-        "intelligence": null,
+        "intelligence": "-",
         "faith": "C"
     },
     "durability": 160,
     "weight": 3,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Found in Valley of the Drakes, guarded by Undead Dragon"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Silver Knight Straight Sword",
     "atk": {
@@ -600,10 +600,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -614,14 +614,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 300,
     "weight": 6,
     "attackTypes": ["Regular"],
     "obtained": ["Possible drop from Silver Knights in Anor Londo"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Drake Sword",
     "atk": {
@@ -639,10 +639,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -651,16 +651,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 360,
     "weight": 6,
     "attackTypes": ["Regular", "Special"],
     "obtained": ["Reward for cutting off The Bridge Wyvern's tail."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Darksword",
     "atk": {
@@ -678,10 +678,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -692,14 +692,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 6,
     "attackTypes": ["Regular"],
     "obtained": ["Obtained after reaching Rank 2 in the Darkwraith covenant."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Crystal Straight Sword",
     "atk": {
@@ -717,10 +717,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -733,7 +733,7 @@
     "weight": 6,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Drops from Undead Crystal Soldiers (Sword)", "Sold by Domhnall of Zena for 4,000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Bastard Sword",
     "atk": {
@@ -751,10 +751,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -765,14 +765,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 6,
     "attackTypes": ["Regular"],
     "obtained": ["Purchased from Blacksmith Andrei for 3,000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Black Knight Sword",
     "atk": {
@@ -790,10 +790,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 20,
@@ -804,14 +804,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "E",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 300,
     "weight": 8,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Chance to drop from Black Knights wielding this weapon (various locations)"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Claymore",
     "atk": {
@@ -829,10 +829,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -843,14 +843,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 6,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Looted from a body on the bridge guarded by Hellkite Wyvern in Undead Burg"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Flamberge",
     "atk": {
@@ -868,10 +868,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -882,14 +882,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 160,
     "weight": 6,
     "attackTypes": ["Slash"],
     "obtained": ["Can be purchased from Shiva of the East for 10,000 souls", "Dropped by Snake-Headed Mage in Sen's Fortress"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Crystal Greatsword",
     "atk": {
@@ -907,10 +907,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 20,
@@ -921,14 +921,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 60,
     "weight": 8,
     "attackTypes": ["Regular"],
     "obtained": ["Can be purchased from Domhnall of Zena in the Depths and later on in Firelink Shrine for 6,000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Man-Serpent Greatsword",
     "atk": {
@@ -946,10 +946,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 24,
@@ -959,15 +959,15 @@
     },
     "scale": {
         "strength": "B",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 300,
     "weight": 10,
     "attackTypes": ["Regular"],
     "obtained": ["Possible drop from Snake-Headed Soldier in Sen's Fortress"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Great Lord Greatsword",
     "atk": {
@@ -985,10 +985,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 20,
@@ -999,14 +999,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "D",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 400,
     "weight": 8,
     "attackTypes": ["Regular"],
     "obtained": ["Ascension only (need Soul of Gwyn, Lord of Cinder) from Giant Blacksmith"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Moonlight Greatsword",
     "atk": {
@@ -1024,10 +1024,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -1036,16 +1036,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
+        "strength": "-",
+        "dexterity": "-",
         "intelligence": "A",
-        "faith": null
+        "faith": "-"
     },
     "durability": 300,
     "weight": 6,
     "attackTypes": ["Regular", "Special"],
     "obtained": ["Obtained by cutting off Seath the Scaleless' Tail."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Greatsword of Artorias",
     "atk": {
@@ -1063,10 +1063,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
+        "poison": "-",
+        "bleed": "-",
         "divine": 140,
-        "occult": null
+        "occult": "-"
     },
     "req": {
         "strength": 24,
@@ -1084,7 +1084,7 @@
     "weight": 10,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Ascension only (need soul of Great Grey Wolf Sif) from Giant Blacksmith"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Greatsword of Artorias (Cursed)",
     "atk": {
@@ -1102,10 +1102,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 24,
@@ -1123,7 +1123,7 @@
     "weight": 10,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Ascension only (need soul of Great Grey Wolf Sif) from Giant Blacksmith"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Stone Greatsword",
     "atk": {
@@ -1141,10 +1141,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 40,
@@ -1156,13 +1156,13 @@
         "strength": "C",
         "dexterity": "C",
         "intelligence": "E",
-        "faith": null
+        "faith": "-"
     },
     "durability": 800,
     "weight": 18,
     "attackTypes": [800, 18],
     "obtained": ["Drops from the Stone Knights in the Darkroot Garden", "Can be purchased from Shiva of the East for 15,000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Abyss Greatsword",
     "atk": {
@@ -1180,10 +1180,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 22,
@@ -1194,14 +1194,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 300,
     "weight": 9,
     "attackTypes": ["Regular"],
     "obtained": ["Ascension only (Soul of Artorias required)"],
-    "aotaOnly": true
+    "aotaOnly": "yes"
 }, {
     "name": "Obsidian Greatsword",
     "atk": {
@@ -1213,10 +1213,10 @@
     },
     "def": {},
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 20,
@@ -1228,7 +1228,7 @@
     "durability": 3508,
     "attackTypes": ["RegularSpecial"],
     "obtained": ["Obtained by cutting off the tail of Black Dragon Kalameet."],
-    "aotaOnly": true
+    "aotaOnly": "yes"
 }, {
     "name": "Dragon Greatsword",
     "atk": {
@@ -1246,10 +1246,10 @@
         "stab": 44
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 50,
@@ -1258,16 +1258,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 400,
     "weight": 24,
     "attackTypes": ["Regular", "Special"],
     "obtained": ["Obtained by cutting off the tail of the Ancient Stone Dragon", "Note: This will not make him hostile, will not break the covenant, and will not prevent you from joining the covenant.", "Sends a shockwave in front of player if you hold it in 2 hands and use a strong attack."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Greatsword",
     "atk": {
@@ -1285,10 +1285,10 @@
         "stab": 44
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 28,
@@ -1299,14 +1299,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "D",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 12,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Can be purchased from the Crestfallen Merchant for 8000 souls.", "Found on dead body in Anor Londo to the left of the large painting leading to the Painted World of Ariamis", "Drops from Heavy Knight(mace), Heavy Knight(Sword)"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Black Knight Greatsword",
     "atk": {
@@ -1324,10 +1324,10 @@
         "stab": 44
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 32,
@@ -1338,14 +1338,14 @@
     "scale": {
         "strength": "B",
         "dexterity": "E",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 300,
     "weight": 14,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Chance to drop from Black Knights wielding a Greatsword. The Black Knight in Undead Parish is one such."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Zweihander",
     "atk": {
@@ -1363,10 +1363,10 @@
         "stab": 44
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 24,
@@ -1377,14 +1377,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "D",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 10,
     "attackTypes": ["Regular"],
     "obtained": ["Obtained in the Graveyard area next to one of the large skeletons near Firelink Shrine"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Demon Great Machete",
     "atk": {
@@ -1402,10 +1402,10 @@
         "stab": 44
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 40,
@@ -1415,15 +1415,15 @@
     },
     "scale": {
         "strength": "B",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 600,
     "weight": 18,
     "attackTypes": ["Regular"],
     "obtained": ["Chance to drop from Capra Demon boss", "Chance to drop from standard Capra enemies", "Can be purchased from Shiva of the East for 10.000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Scimitar",
     "atk": {
@@ -1441,10 +1441,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 7,
@@ -1455,14 +1455,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 160,
     "weight": 1,
     "attackTypes": ["Slash"],
     "obtained": ["Purchased from Undead Merchant for 600 souls", "Chance to drop from Skeleton Swords-men"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Shotel",
     "atk": {
@@ -1480,10 +1480,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 9,
@@ -1494,14 +1494,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 120,
     "weight": 2,
     "attackTypes": ["Slash", "Special"],
     "obtained": ["Can be found on a body in Sen's Fortress.", "Purchased from Shiva of the East for 10,000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Falchion",
     "atk": {
@@ -1519,10 +1519,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 9,
@@ -1533,14 +1533,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 160,
     "weight": 2,
     "attackTypes": ["Slash"],
     "obtained": ["Found in Blighttown", "Chance drop from Skeleton Swordsman", "(enchanted) in duke's archives. (Crystal ember room.)"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Quelaag's Furysword",
     "atk": {
@@ -1558,10 +1558,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 11,
@@ -1572,14 +1572,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 600,
     "weight": 3,
     "attackTypes": ["Slash"],
     "obtained": ["Upgrade +10 curved sword with Quelaag's Soul at the Giant Blacksmith."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Painting Guardian Sword",
     "atk": {
@@ -1597,10 +1597,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 7,
@@ -1611,14 +1611,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "A",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 100,
     "weight": 1,
     "attackTypes": ["Slash", "Combo"],
     "obtained": ["Possible drop from Painting Guardians in Anor Londo."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Jagged Ghost Blade",
     "atk": {
@@ -1636,10 +1636,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 7,
@@ -1649,15 +1649,15 @@
     },
     "scale": {
         "strength": "E",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 100,
     "weight": 1,
     "attackTypes": ["Slash", "Thrust", "Combo"],
     "obtained": ["Chance drop from Dual blade ghosts in New Londo."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Gold Tracer",
     "atk": {
@@ -1675,10 +1675,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 9,
@@ -1689,14 +1689,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "A",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 240,
     "weight": 2,
     "attackTypes": ["Slash"],
     "obtained": ["Can be obtained either by trading Soul of Artorias to Lord's Blade Ciaran, or by killing her."],
-    "aotaOnly": true
+    "aotaOnly": "yes"
 }, {
     "name": "Uchigatana",
     "atk": {
@@ -1714,10 +1714,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 14,
@@ -1726,16 +1726,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
+        "strength": "-",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 80,
     "weight": 5,
     "attackTypes": ["Slash", "Thrust"],
     "obtained": ["Drop from the undead merchant", "Purchased from Shiva of the East for 5,000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Washing Pole",
     "atk": {
@@ -1753,10 +1753,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 20,
@@ -1767,14 +1767,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "D",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 60,
     "weight": 8,
     "attackTypes": ["Slash", "Thrust"],
     "obtained": ["Purchased from Shiva of the East for 20,000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Iaito",
     "atk": {
@@ -1792,10 +1792,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 14,
@@ -1804,16 +1804,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
+        "strength": "-",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 80,
     "weight": 5,
     "attackTypes": ["Slash"],
     "obtained": ["Found in Blighttown"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Chaos Blade",
     "atk": {
@@ -1831,10 +1831,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -1843,16 +1843,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
+        "strength": "-",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 120,
     "weight": 6,
     "attackTypes": ["Slash"],
     "obtained": ["Upgrade +10 katana with Quelaag's Soul at the Giant Blacksmith"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Server",
     "atk": {
@@ -1870,10 +1870,10 @@
         "stab": 36
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 24,
@@ -1884,14 +1884,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 150,
     "weight": 10,
     "attackTypes": ["Slash"],
     "obtained": ["Found in the Blight Town Swamp"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Murakumo",
     "atk": {
@@ -1909,10 +1909,10 @@
         "stab": 36
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 28,
@@ -1923,14 +1923,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 180,
     "weight": 12,
     "attackTypes": ["Slash"],
     "obtained": ["Drops from Giant Sword Skeleton", "Drops from Shiva of the East"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Gravelord Sword",
     "atk": {
@@ -1949,9 +1949,9 @@
     },
     "effects": {
         "poison": 300,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 24,
@@ -1962,14 +1962,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "E",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 600,
     "weight": 10,
     "attackTypes": ["Slash", "Thrust"],
     "obtained": ["Join the Gravelord Covenant"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Rapier",
     "atk": {
@@ -1987,10 +1987,10 @@
         "stab": 22
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 7,
@@ -2001,14 +2001,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 150,
     "weight": 1,
     "attackTypes": ["Thrust"],
     "obtained": ["Purchased from Undead Merchant for 600 souls", "Drops from Undead Knight (Rapier)"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Estoc",
     "atk": {
@@ -2026,10 +2026,10 @@
         "stab": 22
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 10,
@@ -2040,14 +2040,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 150,
     "weight": 3,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Found on a body in New Londo Ruins, before the ghosts"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Mail Breaker",
     "atk": {
@@ -2065,10 +2065,10 @@
         "stab": 22
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 5,
@@ -2079,14 +2079,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 0,
     "attackTypes": ["Thrust"],
     "obtained": ["Found on a body in the Lower Undead Burg, first thief attack"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Ricard's Rapier",
     "atk": {
@@ -2104,10 +2104,10 @@
         "stab": 22
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 8,
@@ -2118,14 +2118,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 100,
     "weight": 2,
     "attackTypes": ["Thrust", "Combo"],
     "obtained": ["Drops from Undead Prince Ricard"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Velka's Rapier",
     "atk": {
@@ -2143,9 +2143,9 @@
         "stab": 22
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
         "occult": 110
     },
     "req": {
@@ -2158,13 +2158,13 @@
         "strength": "E",
         "dexterity": "C",
         "intelligence": "B",
-        "faith": null
+        "faith": "-"
     },
     "durability": 130,
     "weight": 2,
     "attackTypes": ["Regular", "Thrust", "Combo"],
     "obtained": ["Found in Painted World of Ariamis"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Hand Axe",
     "atk": {
@@ -2182,10 +2182,10 @@
         "stab": 36
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 8,
@@ -2196,14 +2196,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "D",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 250,
     "weight": 2,
     "attackTypes": ["Regular"],
     "obtained": ["Initial Equipment for Pyromancer", "Purchased from Undead Merchant for 450 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Gargoyle Tail Axe",
     "atk": {
@@ -2221,10 +2221,10 @@
         "stab": 36
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 14,
@@ -2235,14 +2235,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 150,
     "weight": 5,
     "attackTypes": ["Regular"],
     "obtained": ["Acquire by cutting off the Gargoyle's tail (Bell Gargoyle or Anor Londo)"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Battle Axe",
     "atk": {
@@ -2260,10 +2260,10 @@
         "stab": 36
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 12,
@@ -2274,14 +2274,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "D",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 250,
     "weight": 4,
     "attackTypes": ["Regular"],
     "obtained": ["Initial Equipment for Bandit", "Sold by Andrei of Astora for 1,000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Butcher Knife",
     "atk": {
@@ -2299,10 +2299,10 @@
         "stab": 36
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 24,
@@ -2312,15 +2312,15 @@
     },
     "scale": {
         "strength": "B",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 250,
     "weight": 10,
     "attackTypes": ["Regular"],
     "obtained": ["Drop from Black Phantom Maneater Mildred, who invades in the Blighttown Swamps."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Crescent Axe",
     "atk": {
@@ -2338,10 +2338,10 @@
         "stab": 36
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
+        "poison": "-",
+        "bleed": "-",
         "divine": 120,
-        "occult": null
+        "occult": "-"
     },
     "req": {
         "strength": 18,
@@ -2352,14 +2352,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "D",
-        "intelligence": null,
+        "intelligence": "-",
         "faith": "B"
     },
     "durability": 180,
     "weight": 7,
     "attackTypes": ["Regular"],
     "obtained": ["Bought from Patches the Hyena for 10,000 souls."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Golem Axe",
     "atk": {
@@ -2377,10 +2377,10 @@
         "stab": 36
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 36,
@@ -2391,14 +2391,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "E",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 600,
     "weight": 16,
     "attackTypes": ["Regular", "Special"],
     "obtained": ["Ascension only ( +10 Axe and Core of an Iron Golem at the Giant Blacksmith)", "One handed R2 attack created AOE wind blast. Degrades weapon quickly"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Demon's Greataxe",
     "atk": {
@@ -2416,10 +2416,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 46,
@@ -2429,15 +2429,15 @@
     },
     "scale": {
         "strength": "A",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 600,
     "weight": 22,
     "attackTypes": ["Regular"],
     "obtained": ["Rare drop from the Taurus Demon.", "Bought from Shiva of The East for 10,000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Greataxe",
     "atk": {
@@ -2455,10 +2455,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 32,
@@ -2469,14 +2469,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "E",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 230,
     "weight": 14,
     "attackTypes": ["Regular"],
     "obtained": ["Found in The Depths", "Bought from the Crestfallen Merchant for 8,000 souls", "Rare drop from Tower Knight ontop of Sen's Fortress"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Dragon King Greataxe",
     "atk": {
@@ -2494,10 +2494,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 50,
@@ -2506,16 +2506,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 400,
     "weight": 24,
     "attackTypes": ["Regular", "Special"],
     "obtained": ["Acquired by cutting off the Gaping Dragon's tail.", "AoE attack when held in 2 hands and a strong attack is used."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Black Knight Greataxe",
     "atk": {
@@ -2533,10 +2533,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 36,
@@ -2547,14 +2547,14 @@
     "scale": {
         "strength": "B",
         "dexterity": "E",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 300,
     "weight": 16,
     "attackTypes": ["Regular"],
     "obtained": ["Dropped from Black Knights wielding them."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Stone Greataxe",
     "atk": {
@@ -2572,10 +2572,10 @@
         "stab": 38
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 48,
@@ -2586,14 +2586,14 @@
     "scale": {
         "strength": "B",
         "dexterity": "E",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 700,
     "weight": 24,
     "attackTypes": ["Regular"],
     "obtained": ["Dropped from the Stone Guardians in the Royal Woods."],
-    "aotaOnly": true
+    "aotaOnly": "yes"
 }, {
     "name": "Club",
     "atk": {
@@ -2611,10 +2611,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 10,
@@ -2624,15 +2624,15 @@
     },
     "scale": {
         "strength": "A",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 250,
     "weight": 3,
     "attackTypes": ["Strike"],
     "obtained": ["Purchased from Undead Merchant for 150 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Reinforced Club",
     "atk": {
@@ -2650,10 +2650,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 12,
@@ -2663,15 +2663,15 @@
     },
     "scale": {
         "strength": "C",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 100,
     "weight": 4,
     "attackTypes": ["Strike"],
     "obtained": ["Purchased from Undead Merchant for 350 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Mace",
     "atk": {
@@ -2689,10 +2689,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 12,
@@ -2702,15 +2702,15 @@
     },
     "scale": {
         "strength": "B",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 250,
     "weight": 4,
     "attackTypes": ["Strike"],
     "obtained": ["Initial equipment for Cleric", "Sold by Patches the Hyena for 3,000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Morning Star",
     "atk": {
@@ -2728,10 +2728,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 11,
@@ -2741,15 +2741,15 @@
     },
     "scale": {
         "strength": "C",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 180,
     "weight": 4,
     "attackTypes": ["Strike"],
     "obtained": ["Found in chest near firelink shrine."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Warpick",
     "atk": {
@@ -2767,10 +2767,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 11,
@@ -2781,14 +2781,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "D",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 220,
     "weight": 3,
     "attackTypes": ["Thrust"],
     "obtained": ["Can be bought from Andrei of Astora for 800 Souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Pickaxe",
     "atk": {
@@ -2806,10 +2806,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 14,
@@ -2819,15 +2819,15 @@
     },
     "scale": {
         "strength": "B",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 250,
     "weight": 5,
     "attackTypes": ["Thrust"],
     "obtained": ["Possible drop from Boulder Infested Barbarian in Blight Town Swamp."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Blacksmith Hammer",
     "atk": {
@@ -2845,10 +2845,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 14,
@@ -2858,15 +2858,15 @@
     },
     "scale": {
         "strength": "C",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 250,
     "weight": 5,
     "attackTypes": ["Strike"],
     "obtained": ["Drop from Andre of Astora in Undead Parish"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Blacksmith Giant Hammer",
     "atk": {
@@ -2884,10 +2884,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -2897,15 +2897,15 @@
     },
     "scale": {
         "strength": "D",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 250,
     "weight": 6,
     "attackTypes": ["Strike"],
     "obtained": ["Drop from Giant Blacksmith in Anor Londo."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Hammer of Vamos",
     "atk": {
@@ -2923,10 +2923,10 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 14,
@@ -2936,15 +2936,15 @@
     },
     "scale": {
         "strength": "C",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 250,
     "weight": 12,
     "attackTypes": ["Strike"],
     "obtained": ["Drop from Blacksmith Vamos in The Catacombs."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Demon's Great Hammer",
     "atk": {
@@ -2962,10 +2962,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 46,
@@ -2975,15 +2975,15 @@
     },
     "scale": {
         "strength": "B",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 600,
     "weight": 22,
     "attackTypes": ["Strike"],
     "obtained": ["Defeat the Asylum Demon in tutorial the first encounter. ( Pre-equipment. )", "Killing it the first time in NG+ also grants you the weapon.", "Trade Sack to Snuggly"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Great Club",
     "atk": {
@@ -3001,10 +3001,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 28,
@@ -3014,15 +3014,15 @@
     },
     "scale": {
         "strength": "B",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 250,
     "weight": 12,
     "attackTypes": ["Strike"],
     "obtained": ["Found in Blighttown near Quelaag's Domain. Pocket island with Rock-Tosser Barbarians."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Dragon Tooth",
     "atk": {
@@ -3040,10 +3040,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 40,
@@ -3053,15 +3053,15 @@
     },
     "scale": {
         "strength": "D",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 999,
     "weight": 18,
     "attackTypes": ["Strike"],
     "obtained": ["Found in Anor Londo, by revealing a hidden door in a fireplace."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Smough's Hammer",
     "atk": {
@@ -3079,10 +3079,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 58,
@@ -3092,15 +3092,15 @@
     },
     "scale": {
         "strength": "D",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 600,
     "weight": 28,
     "attackTypes": ["Strike"],
     "obtained": ["Ascend any +10 strike weapon with the Soul of Smough at the Giant Blacksmith."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Grant",
     "atk": {
@@ -3118,10 +3118,10 @@
         "stab": 32
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
+        "poison": "-",
+        "bleed": "-",
         "divine": 130,
-        "occult": null
+        "occult": "-"
     },
     "req": {
         "strength": 50,
@@ -3131,15 +3131,15 @@
     },
     "scale": {
         "strength": "B",
-        "dexterity": null,
-        "intelligence": null,
+        "dexterity": "-",
+        "intelligence": "-",
         "faith": "A"
     },
     "durability": 600,
     "weight": 24,
     "attackTypes": ["Strike", "Special"],
     "obtained": ["Drop from NPC Phantom Paladin Leeroy in Tomb of Giants."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Large Club",
     "atk": {
@@ -3158,9 +3158,9 @@
     },
     "effects": {
         "poison": 180,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 26,
@@ -3170,15 +3170,15 @@
     },
     "scale": {
         "strength": "A",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 250,
     "weight": 11,
     "attackTypes": ["Strike"],
     "obtained": ["Drop from Club wielding Infested Barbarians in Blighttown."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Caestus",
     "atk": {
@@ -3196,10 +3196,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 5,
@@ -3210,14 +3210,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 300,
     "weight": 0,
     "attackTypes": ["Strike"],
     "obtained": ["Sold by Blacksmith Andrei in Undead Parish for 200 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Claws",
     "atk": {
@@ -3235,10 +3235,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 6,
@@ -3249,14 +3249,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 150,
     "weight": 1,
     "attackTypes": ["Slash"],
     "obtained": ["Sold by Shiva of the East in Blighttown Swamp for 5,000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Dragon Bone Fist",
     "atk": {
@@ -3274,10 +3274,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 20,
@@ -3287,15 +3287,15 @@
     },
     "scale": {
         "strength": "A",
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 999,
     "weight": 8,
     "attackTypes": ["Strike"],
     "obtained": ["Acquire by Ascending a +10 Fist Weapon with the Core of an Iron Golem at the Giant Blacksmith"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Dark Hand",
     "atk": {
@@ -3313,9 +3313,9 @@
         "stab": 30
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
         "occult": 110
     },
     "req": {
@@ -3325,16 +3325,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 999,
     "weight": 0,
     "attackTypes": ["Strike", "Special"],
     "obtained": ["Acquired from the Darkwraith Covenant", "Rare drops from Darkwraith in New Londo Ruins"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Spear",
     "atk": {
@@ -3352,10 +3352,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 11,
@@ -3366,14 +3366,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 180,
     "weight": 3,
     "attackTypes": ["Thrust"],
     "obtained": ["Sold by Undead Merchant for 600 souls", "Drops from Undead Soldiers", "Drops from Phalanx"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Winged Spear",
     "atk": {
@@ -3391,10 +3391,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 13,
@@ -3405,14 +3405,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 140,
     "weight": 4,
     "attackTypes": ["Thrust"],
     "obtained": ["Found in Skeleton Graveyard near Firelink Shrine"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Demon's Spear",
     "atk": {
@@ -3430,10 +3430,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 12,
@@ -3444,14 +3444,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 400,
     "weight": 4,
     "attackTypes": ["Thrust"],
     "obtained": ["Rare drop from Bat Wing Demons in Anor Londo", "Sold by Shiva of the East for 15,000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Pike",
     "atk": {
@@ -3469,10 +3469,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 24,
@@ -3483,14 +3483,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 180,
     "weight": 10,
     "attackTypes": ["Thrust"],
     "obtained": ["Sold by Blacksmith Andrei for 2,000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Dragonslayer Spear",
     "atk": {
@@ -3508,10 +3508,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 24,
@@ -3522,14 +3522,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "B",
-        "intelligence": null,
+        "intelligence": "-",
         "faith": "B"
     },
     "durability": 300,
     "weight": 10,
     "attackTypes": ["Thrust", "Special"],
     "obtained": ["Ascends from a +10 spear and Soul of Ornstein"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Partizan",
     "atk": {
@@ -3547,10 +3547,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 13,
@@ -3561,14 +3561,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 160,
     "weight": 4,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Found in Darkroot Garden"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Channeler's Trident",
     "atk": {
@@ -3586,10 +3586,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -3601,13 +3601,13 @@
         "strength": "E",
         "dexterity": "C",
         "intelligence": "B",
-        "faith": null
+        "faith": "-"
     },
     "durability": 240,
     "weight": 6,
     "attackTypes": ["Thrust", "Special"],
     "obtained": ["Rare drop from Channelers in Duke's Archives"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Silver Knight Spear",
     "atk": {
@@ -3625,10 +3625,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
+        "poison": "-",
+        "bleed": "-",
         "divine": 110,
-        "occult": null
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -3639,14 +3639,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 300,
     "weight": 6,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Possible drop from Spear wielding Silver Knights in Anor Londo"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Moonlight Butterfly Horn",
     "atk": {
@@ -3664,10 +3664,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 12,
@@ -3676,16 +3676,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
+        "strength": "-",
+        "dexterity": "-",
         "intelligence": "B",
-        "faith": null
+        "faith": "-"
     },
     "durability": 160,
     "weight": 4,
     "attackTypes": ["Thrust"],
     "obtained": ["Ascend a +10 spear with the Soul of the Moonlight Butterfly"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Four-pronged Plow",
     "atk": {
@@ -3703,10 +3703,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 15,
@@ -3717,14 +3717,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 300,
     "weight": 5,
     "attackTypes": ["Thrust"],
     "obtained": ["Dropped by the Treant Gardeners in the Royal Wood."],
-    "aotaOnly": true
+    "aotaOnly": "yes"
 }, {
     "name": "Halberd",
     "atk": {
@@ -3742,10 +3742,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -3756,14 +3756,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "D",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 6,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Found in Undead Parish", "Crystal Halberd found in Anor Londo"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Gargoyle's Halberd",
     "atk": {
@@ -3781,10 +3781,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -3795,14 +3795,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "D",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 6,
     "attackTypes": ["Regular"],
     "obtained": ["Possible drop from Bell Gargoyles or Gargoyles in Anor Londo"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Titanite Catch Pole",
     "atk": {
@@ -3820,10 +3820,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -3835,13 +3835,13 @@
         "strength": "D",
         "dexterity": "D",
         "intelligence": "D",
-        "faith": null
+        "faith": "-"
     },
     "durability": 600,
     "weight": 6,
     "attackTypes": ["Regular"],
     "obtained": ["Rare drops from Titanite Demons"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Black Knight Halberd",
     "atk": {
@@ -3859,10 +3859,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 32,
@@ -3873,14 +3873,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "E",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 300,
     "weight": 14,
     "attackTypes": ["Slash"],
     "obtained": ["Possible drop from Halberd wielding Black Knights at Darkroot Garden or Kiln of the First Flame"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Great Scythe",
     "atk": {
@@ -3898,10 +3898,10 @@
         "stab": 22
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 14,
@@ -3912,14 +3912,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 130,
     "weight": 5,
     "attackTypes": ["Slash"],
     "obtained": ["Found in the Catacombs"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Lifehunt Scythe",
     "atk": {
@@ -3937,10 +3937,10 @@
         "stab": 22
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 500,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -3951,14 +3951,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 100,
     "weight": 6,
     "attackTypes": ["Slash"],
     "obtained": ["Upgrade +10 Scythe, Whip,or Halberd and Soul of Priscilla at the Giant Blacksmith."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Scythe",
     "atk": {
@@ -3976,10 +3976,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 14,
@@ -3990,14 +3990,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 5,
     "attackTypes": ["Slash"],
     "obtained": ["Found in Sen's Fortress"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Lucerne",
     "atk": {
@@ -4015,10 +4015,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 15,
@@ -4029,14 +4029,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "D",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 5,
     "attackTypes": ["Thrust"],
     "obtained": ["Found in the Catacombs"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Giant's Halberd",
     "atk": {
@@ -4054,10 +4054,10 @@
         "stab": 26
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 36,
@@ -4068,14 +4068,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "D",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 300,
     "weight": 16,
     "attackTypes": ["Regular", "Thrust"],
     "obtained": ["Drops from Giant Sentinels in Anor Londo", "Bought from Giant Blacksmith for 5,000 souls"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Whip",
     "atk": {
@@ -4093,10 +4093,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 7,
@@ -4105,16 +4105,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
+        "strength": "-",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 1,
     "attackTypes": ["Regular"],
     "obtained": ["Found in Blighttown"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Notched Whip",
     "atk": {
@@ -4132,10 +4132,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
+        "poison": "-",
         "bleed": 300,
-        "divine": null,
-        "occult": null
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 8,
@@ -4144,16 +4144,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
+        "strength": "-",
         "dexterity": "B",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 200,
     "weight": 2,
     "attackTypes": ["Regular"],
     "obtained": ["Drop from NPC Phantom Xanthous King Jeremiah"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Guardian Tail",
     "atk": {
@@ -4172,9 +4172,9 @@
     },
     "effects": {
         "poison": 180,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 15,
@@ -4189,7 +4189,7 @@
     "weight": 5,
     "attackTypes": ["Regular"],
     "obtained": ["Sever the tail of the Sanctuary Guardian in Sanctuary Garden"],
-    "aotaOnly": true
+    "aotaOnly": "yes"
 }, {
     "name": "Short Bow",
     "atk": {
@@ -4207,10 +4207,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 7,
@@ -4221,14 +4221,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "A",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 100,
     "weight": 0,
     "attackTypes": [50],
     "obtained": ["Default gear for Hunter", "Purchased from Undead Merchant for 1000 souls", "Drops from Skeleton (bow)", "Drops from Undead Archer"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Longbow",
     "atk": {
@@ -4246,10 +4246,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 9,
@@ -4260,14 +4260,14 @@
     "scale": {
         "strength": "D",
         "dexterity": "A",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 100,
     "weight": 1,
     "attackTypes": [50],
     "obtained": ["Found in Darkroot Grove"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Composite Bow",
     "atk": {
@@ -4285,10 +4285,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 11,
@@ -4299,14 +4299,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 100,
     "weight": 1,
     "attackTypes": [38],
     "obtained": ["Found in New Londo Ruins"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Black Bow of Pharis",
     "atk": {
@@ -4324,10 +4324,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 9,
@@ -4338,14 +4338,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "S",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 100,
     "weight": 1,
     "attackTypes": [65],
     "obtained": ["Drops from Pharis in Darkroot Garden"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Darkmoon Bow",
     "atk": {
@@ -4363,10 +4363,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 7,
@@ -4377,14 +4377,14 @@
     "scale": {
         "strength": "E",
         "dexterity": "D",
-        "intelligence": null,
+        "intelligence": "-",
         "faith": "D"
     },
     "durability": 400,
     "weight": 1,
     "attackTypes": [50],
     "obtained": ["Ascension only (Bow weapon +10 + Soul of Gwyndolin + Giant Blacksmith)"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Dragonslayer Greatbow",
     "atk": {
@@ -4402,10 +4402,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 20,
@@ -4416,14 +4416,14 @@
     "scale": {
         "strength": "C",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 100,
     "weight": 10,
     "attackTypes": [50],
     "obtained": ["Found in Anor Londo"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Gough's Greatbow",
     "atk": {
@@ -4441,10 +4441,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 27,
@@ -4455,14 +4455,14 @@
     "scale": {
         "strength": "B",
         "dexterity": "C",
-        "intelligence": null,
-        "faith": null
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 100,
     "weight": 13,
     "attackTypes": [55],
     "obtained": ["Obtained from Hawkeye Gough after defeating Black Dragon Kalameet"],
-    "aotaOnly": true
+    "aotaOnly": "yes"
 }, {
     "name": "Light Crossbow",
     "atk": {
@@ -4480,10 +4480,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 10,
@@ -4492,16 +4492,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 150,
     "weight": 3,
     "attackTypes": [50],
     "obtained": ["Found in Undead Burg", "Armored Soldier (crossbow)", "Elite Undead Archer"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Heavy Crossbow",
     "atk": {
@@ -4519,10 +4519,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 14,
@@ -4531,16 +4531,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 150,
     "weight": 5,
     "attackTypes": [50],
     "obtained": ["Found in the Depths"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Sniper Crossbow",
     "atk": {
@@ -4558,10 +4558,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 20,
@@ -4570,16 +4570,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 150,
     "weight": 8,
     "attackTypes": [70],
     "obtained": ["Found in Sen's Fortress"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Avelyn",
     "atk": {
@@ -4597,10 +4597,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 16,
@@ -4609,16 +4609,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 150,
     "weight": 6,
     "attackTypes": [50],
     "obtained": ["Found in Duke's Archives"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Pyromancy Flame",
     "atk": {
@@ -4635,10 +4635,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 0,
@@ -4647,14 +4647,14 @@
         "faith": 30
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-"
     },
     "durability": 0,
     "attackTypes": ["Strike"],
     "obtained": ["Starting gear for Pyromancer", "Obtained from Laurentius of the Great Swamp after saving him from the Depths", "Gift from Eingyi if you have no flame (must have 12 Int)"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Pyromancy Flame (Upgraded)",
     "atk": {
@@ -4671,10 +4671,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 0,
@@ -4683,14 +4683,14 @@
         "faith": 30
     },
     "scale": {
-        "strength": null,
+        "strength": "-",
         "dexterity": "S",
-        "intelligence": null
+        "intelligence": "-"
     },
     "durability": 0,
     "attackTypes": ["Strike"],
     "obtained": [],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Sorcerer's Catalyst",
     "atk": {
@@ -4708,10 +4708,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 6,
@@ -4721,15 +4721,15 @@
     },
     "scale": {
         "strength": "E",
-        "dexterity": null,
+        "dexterity": "-",
         "intelligence": "A",
-        "faith": null
+        "faith": "-"
     },
     "durability": 90,
     "weight": 2,
     "attackTypes": ["Strike"],
     "obtained": ["Starting equipment for Sorcerer", "Sold by Griggs of Vinheim", "Sold by Blacksmith Rickert of Vinheim"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Izalith Catalyst",
     "atk": {
@@ -4747,10 +4747,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 6,
@@ -4760,15 +4760,15 @@
     },
     "scale": {
         "strength": "E",
-        "dexterity": null,
+        "dexterity": "-",
         "intelligence": "A",
-        "faith": null
+        "faith": "-"
     },
     "durability": 300,
     "weight": 2,
     "attackTypes": ["Strike"],
     "obtained": ["Daughter of Chaos (Pyromancer) in Lost Izalith"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Logan's Catalyst",
     "atk": {
@@ -4786,10 +4786,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 6,
@@ -4799,15 +4799,15 @@
     },
     "scale": {
         "strength": "E",
-        "dexterity": null,
+        "dexterity": "-",
         "intelligence": "S",
-        "faith": null
+        "faith": "-"
     },
     "durability": 90,
     "weight": 2,
     "attackTypes": ["Strike"],
     "obtained": ["Found in The Duke's Archives"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Beatrice's Catalyst",
     "atk": {
@@ -4825,10 +4825,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 6,
@@ -4838,15 +4838,15 @@
     },
     "scale": {
         "strength": "E",
-        "dexterity": null,
+        "dexterity": "-",
         "intelligence": "A",
-        "faith": null
+        "faith": "-"
     },
     "durability": 90,
     "weight": 2,
     "attackTypes": ["Strike"],
     "obtained": ["Found in Valley of Drakes"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Oolacile Ivory Catalyst",
     "atk": {
@@ -4864,10 +4864,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 3,
@@ -4877,15 +4877,15 @@
     },
     "scale": {
         "strength": "E",
-        "dexterity": null,
+        "dexterity": "-",
         "intelligence": "C",
-        "faith": null
+        "faith": "-"
     },
     "durability": 30,
     "weight": 0,
     "attackTypes": ["Strike"],
     "obtained": ["Sold by Dusk of Oolacile in Darkroot Basin"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Demon's Catalyst",
     "atk": {
@@ -4903,10 +4903,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 12,
@@ -4918,13 +4918,13 @@
         "strength": "D",
         "dexterity": "D",
         "intelligence": "B",
-        "faith": null
+        "faith": "-"
     },
     "durability": 300,
     "weight": 4,
     "attackTypes": ["Thrust"],
     "obtained": ["Drops from Demon Firesage in Demon Ruins"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Tin Banishment Catalyst",
     "atk": {
@@ -4942,10 +4942,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 10,
@@ -4957,13 +4957,13 @@
         "strength": "E",
         "dexterity": "D",
         "intelligence": "A",
-        "faith": null
+        "faith": "-"
     },
     "durability": 160,
     "weight": 3,
     "attackTypes": ["‍Thrust"],
     "obtained": ["Found in Blighttown"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Tin Crystallization Catalyst",
     "atk": {
@@ -4981,10 +4981,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 7,
@@ -4994,15 +4994,15 @@
     },
     "scale": {
         "strength": "E",
-        "dexterity": null,
+        "dexterity": "-",
         "intelligence": "S",
-        "faith": null
+        "faith": "-"
     },
     "durability": 90,
     "weight": 2,
     "attackTypes": ["Thrust"],
     "obtained": ["Dropped by Big Hat Logan (hollow)"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Tin Darkmoon Catalyst",
     "atk": {
@@ -5020,10 +5020,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 4,
@@ -5033,15 +5033,15 @@
     },
     "scale": {
         "strength": "E",
-        "dexterity": null,
-        "intelligence": null,
+        "dexterity": "-",
+        "intelligence": "-",
         "faith": "A"
     },
     "durability": 60,
     "weight": 1,
     "attackTypes": ["Strike"],
     "obtained": ["Ascension Only (Gwyndolin's Soul)"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Oolacile Catalyst",
     "atk": {
@@ -5059,10 +5059,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 6,
@@ -5072,15 +5072,15 @@
     },
     "scale": {
         "strength": "E",
-        "dexterity": null,
+        "dexterity": "-",
         "intelligence": "C",
-        "faith": null
+        "faith": "-"
     },
     "durability": 55,
     "weight": 2,
     "attackTypes": ["Strike"],
     "obtained": ["Uncommon drop by Oolacile Sorcerers", "Melee attack inflicts poison"],
-    "aotaOnly": true
+    "aotaOnly": "yes"
 }, {
     "name": "Manus Catalyst",
     "atk": {
@@ -5098,10 +5098,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 14,
@@ -5111,15 +5111,15 @@
     },
     "scale": {
         "strength": "B",
-        "dexterity": null,
+        "dexterity": "-",
         "intelligence": "S",
-        "faith": null
+        "faith": "-"
     },
     "durability": 60,
     "weight": 1,
     "attackTypes": ["Strike"],
     "obtained": ["Ascension Only (Soul of Manus)"],
-    "aotaOnly": true
+    "aotaOnly": "yes"
 }, {
     "name": "Talisman",
     "atk": {
@@ -5137,10 +5137,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 4,
@@ -5149,16 +5149,16 @@
         "faith": 10
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
         "faith": "B"
     },
     "durability": 50,
     "weight": 0,
     "attackTypes": ["Strike"],
     "obtained": ["Found in chest at Firelink Shrine"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Canvas Talisman",
     "atk": {
@@ -5176,10 +5176,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 4,
@@ -5188,16 +5188,16 @@
         "faith": 14
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
         "faith": "A"
     },
     "durability": 50,
     "weight": 0,
     "attackTypes": ["Strike"],
     "obtained": ["Starting equipment for Cleric"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Thorolund Talisman",
     "atk": {
@@ -5215,10 +5215,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 4,
@@ -5227,16 +5227,16 @@
         "faith": 10
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
         "faith": "D"
     },
     "durability": 50,
     "weight": 0,
     "attackTypes": ["Strike"],
     "obtained": ["Sold by Petrus of Thorolund in Firelink Shrine"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Ivory Talisman",
     "atk": {
@@ -5254,10 +5254,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 4,
@@ -5266,16 +5266,16 @@
         "faith": 16
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
         "faith": "A"
     },
     "durability": 50,
     "weight": 0,
     "attackTypes": ["Strike"],
     "obtained": ["Dropped by Reah of Thorolund (hollow) in The Duke's Archives", "Dropped by Reah of Thorolund at Undead Parish church before she dies", "Dropped by Petrus of Thorolund after Reah of Thorolund is dead."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Sunlight Talisman",
     "atk": {
@@ -5293,10 +5293,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 4,
@@ -5305,16 +5305,16 @@
         "faith": 14
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
         "faith": "A"
     },
     "durability": 50,
     "weight": 0,
     "attackTypes": ["Strike"],
     "obtained": ["Drops from Solaire of Astora"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Velka's Talisman",
     "atk": {
@@ -5332,10 +5332,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 4,
@@ -5344,16 +5344,16 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
+        "strength": "-",
+        "dexterity": "-",
         "intelligence": "A",
-        "faith": null
+        "faith": "-"
     },
     "durability": 50,
     "weight": 0,
     "attackTypes": ["Strike"],
     "obtained": ["Sold by Oswald of Carim in the Undead Parish church bell tower"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Darkmoon Talisman",
     "atk": {
@@ -5371,10 +5371,10 @@
         "stab": 16
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 4,
@@ -5383,16 +5383,16 @@
         "faith": 24
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
         "faith": "A"
     },
     "durability": 50,
     "weight": 0,
     "attackTypes": ["Strike"],
     "obtained": ["Obtained by giving 10 Souvenirs of Reprisal to Blade of the Darkmoon Covenant"],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }, {
     "name": "Gwynevere's Talisman",
     "atk": {
@@ -5410,10 +5410,10 @@
         "stab": 0
     },
     "effects": {
-        "poison": null,
-        "bleed": null,
-        "divine": null,
-        "occult": null
+        "poison": "-",
+        "bleed": "-",
+        "divine": "-",
+        "occult": "-"
     },
     "req": {
         "strength": 0,
@@ -5422,14 +5422,14 @@
         "faith": 0
     },
     "scale": {
-        "strength": null,
-        "dexterity": null,
-        "intelligence": null,
-        "faith": null
+        "strength": "-",
+        "dexterity": "-",
+        "intelligence": "-",
+        "faith": "-"
     },
     "durability": 0,
     "weight": 0,
     "attackTypes": ["None"],
     "obtained": ["Not obtained by normal means.", "Even though it is categorized as a Talisman in the game's code, Gwynevere's Talisman does not actually cast miracles; it is completely unfinished."],
-    "aotaOnly": false
+    "aotaOnly": "no"
 }]
