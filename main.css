@@ -1,0 +1,23 @@
+body {
+    font-family: "Verdana";
+    font-size: 12px;
+    background-color: #111;
+    color: #AAA;
+}
+
+#weapons-select {
+    display: block;
+}
+
+select {
+    background-color: #222;
+    border: 1px solid #555;
+    color: #999;
+    padding: 2px;
+    font-size: 14px;
+}
+
+select option:hover {
+    color: #000;
+    padding-left: 25px
+}
