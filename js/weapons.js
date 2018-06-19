@@ -35,7 +35,7 @@
     "durability": 200,
     "weight": 0,
     "attackTypes": ["Slash", "Thrust"],
-    "obtained": ["Initial equipment for Sorcerer.", "Undead Merchant (male) sell the weapon for 300 Souls"],
+    "obtained": ["Initial equipment for Sorcerer.", "Undead Merchant (male) sell the weapon for 300 Souls."],
     "aotaOnly": "no"
 }, {
     "name": "Ghost Blade",
