@@ -11,18 +11,77 @@
     <script>
     $(document).ready(function() {
         var items = [];
-        var objects = [];
-        $("#weapons-select").change(getWeaponInfo);
+        var headerWidths = [];
+        var positions = [];
+        var onTop = true;
+        var i = 0;
+        var j = 0;
+        var filaDeAbajo = false;
+        var posicionTop = 0;
         
-        function getWeaponInfo() {
-            var itemSelected = $("#weapons-select").val();
-            $("#container").html("Name: " + objects[itemSelected]["name"] + "<br>" + 
-            "Durability: " + objects[itemSelected]["durability"]);
-        }
+        // TODO intentar cogiendo los offset de las celdas, en lugar de la de los headers al inicio (al menos para la izq)
+        $(window).scroll(function(event) {
+            var scrollTop = $(window).scrollTop();
+            if(scrollTop > 0 && onTop == true) {
+                $("th").each(function() {
+                    $(this).css("position", "fixed");
+                    $(this).width(headerWidths[j]);
+                    $(this).css("left", positions[j].left);
+                    if(j < 6 && filaDeAbajo == false) {
+                        switch(j) {
+                            case 0:
+                                break;
+                            case 1:
+                                $(this).width(headerWidths[1]+headerWidths[2]+headerWidths[3]+headerWidths[4]+headerWidths[5]+headerWidths[6]);
+                                $(this).css("left", positions[1].left);
+                                break;
+                            case 2:
+                                $(this).width(headerWidths[6]+headerWidths[7]+headerWidths[8]+headerWidths[9]+headerWidths[10]+headerWidths[11]);
+                                $(this).css("left", positions[6].left);
+                                break;
+                            case 3:
+                                $(this).width(headerWidths[11]+headerWidths[12]+headerWidths[13]+headerWidths[14]+headerWidths[15]);
+                                $(this).css("left", positions[11].left);
+                                break;
+                            case 4:
+                                $(this).width(headerWidths[16]+headerWidths[17]+headerWidths[18]+headerWidths[19]+headerWidths[20]);
+                                $(this).css("left", positions[15].left);
+                                break;
+                            case 5:
+                                $(this).width(headerWidths[16]+headerWidths[17]+headerWidths[18]+headerWidths[19]+headerWidths[20]);
+                                $(this).css("left", positions[19].left);
+                                break;
+                            default:
+                                break;
+                        }
+                    }
+                    if(j > 5 && filaDeAbajo == false) {
+                        posicionTop = 15;
+                        filaDeAbajo = true;
+                        j = 0;
+                    }
+                    $(this).css("top", posicionTop);
+                    $(this).css("backgroundColor", "#000");
+                    j++;
+                });
+                onTop = false;
+                j = 0;
+            } else if(scrollTop == 0 && onTop == false) {
+                $("th").each(function() {
+                    $(this).css("position", "relative");
+                    $(this).css("top", 0);
+                    $(this).css("left",0);
+                    $(this).css("backgroundColor", "transparent");
+                });
+                onTop = true;
+                j = 0;
+                filaDeAbajo = false;
+                posicionTop = 0;
+            }
+        });
         
         $.getJSON( "js/weapons.js", function( data ) {
             $.each( data, function( key, val ) {
-                objects.push({name: val["name"], durability: val["durability"]});
                 items.push( "<tr>"
                 +"<td>"+val["name"]+"</td>"
                 +"<td style=\"text-align: center;\">"+val["atk"]["physical"]+"</td>"
@@ -53,13 +112,23 @@
                 +"<td>"+val["obtained"]+"</td>"
                 +"<td style=\"text-align: center;\">"+val["aotaOnly"]+"</td>"
                 +"</tr>" );
-                console.log(val);
             });
 
             items.sort();
             
             $("#weapons-table").append(items.join(""));
-            //getWeaponInfo();
+
+            // asociamos el width de las primeras 28 celdas
+            $("td").each(function(index) {
+                if(i < 28) {
+                    headerWidths.push($(this).width());
+                    positions.push($(this).offset());
+                    $(this).width(headerWidths[i]);
+                } else {
+                    return false;
+                }
+                i++;
+            });
         });
     });
     </script>
