@@ -17,7 +17,7 @@
         var i = 0;
         var j = 0;
         var filaDeAbajo = false;
-        var posicionTop = 0;
+        var posicionTop = $("th").offset().top;
         
         // TODO intentar cogiendo los offset de las celdas, en lugar de la de los headers al inicio (al menos para la izq)
         $(window).scroll(function(event) {
@@ -56,12 +56,12 @@
                         }
                     }
                     if(j > 5 && filaDeAbajo == false) {
-                        posicionTop = 15;
+                        posicionTop += 18;
                         filaDeAbajo = true;
                         j = 0;
                     }
                     $(this).css("top", posicionTop);
-                    $(this).css("backgroundColor", "#000");
+                    $(this).css("backgroundColor", "#111");
                     j++;
                 });
                 onTop = false;
@@ -76,7 +76,7 @@
                 onTop = true;
                 j = 0;
                 filaDeAbajo = false;
-                posicionTop = 0;
+                posicionTop = $("th").offset().top;
             }
         });
         
